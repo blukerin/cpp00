@@ -1,5 +1,5 @@
 # Nombre del ejecutable final
-NAME        = phonebook
+NAME        = crappy
 
 # Archivos fuente del proyecto
 SRCS        =	main.cpp \

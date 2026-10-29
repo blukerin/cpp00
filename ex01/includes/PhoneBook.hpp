@@ -13,9 +13,8 @@ class PhoneBook {
     PhoneBook();
     ~PhoneBook();
 
-    void addContact(std::string newContactName);
-
-    std::string getNameContact(int nContact);
+    void  addContact(void);
+    void  showContacts(void);
 };
 
 #endif
