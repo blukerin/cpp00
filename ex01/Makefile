@@ -2,7 +2,7 @@
 NAME        = crappy
 
 # Archivos fuente del proyecto
-SRCS        =	main.cpp \
+SRCS        =	src/main.cpp \
 				src/Contact.cpp \
 				src/PhoneBook.cpp \
               # ClassName.cpp

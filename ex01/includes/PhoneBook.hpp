@@ -14,7 +14,9 @@ class PhoneBook {
     ~PhoneBook();
 
     void  addContact(void);
-    void  showContacts(void);
+    int   showContacts(void);
+
+    void  getContact(int n);
 };
 
 #endif
