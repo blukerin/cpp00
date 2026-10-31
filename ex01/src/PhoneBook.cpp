@@ -1,9 +1,9 @@
 #include "../includes/PhoneBook.hpp"
 
-static std::string	displayString(std::string str) {
+static std::string  displayString(std::string str) {
   if (str.length() > 10)
     return (str.substr(0, 9) + ".");
-	return (str);
+  return (str);
 }
 
 PhoneBook::PhoneBook() {
@@ -98,8 +98,8 @@ void  PhoneBook::getContact(int n) {
     return ;
   }
   std::cout << "First Name: " << this->_contacts[n].getFirstName() << std::endl;
-	std::cout << "Last Name: " << this->_contacts[n].getLastName() << std::endl;
-	std::cout << "Nickname: " << this->_contacts[n].getNickname() << std::endl;
-	std::cout << "Phone Number: " << this->_contacts[n].getPhoneNumber() << std::endl;
-	std::cout << "Darkest Secret: " << this->_contacts[n].getDarkestSecret() << std::endl;
+  std::cout << "Last Name: " << this->_contacts[n].getLastName() << std::endl;
+  std::cout << "Nickname: " << this->_contacts[n].getNickname() << std::endl;
+  std::cout << "Phone Number: " << this->_contacts[n].getPhoneNumber() << std::endl;
+  std::cout << "Darkest Secret: " << this->_contacts[n].getDarkestSecret() << std::endl;
 }
